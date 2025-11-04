@@ -9,9 +9,7 @@
     "beforeBuildCommand": "pnpm build",
     "frontendDist": "../dist"
   },
-  "plugins" : {
-
-  },
+  "plugins": {},
   "app": {
     "windows": [
       {
@@ -21,7 +19,8 @@
         "visible": false,
         "resizable": true,
         "fullscreen": false,
-        "transparent": true
+        "transparent": true,
+        "alwaysOnTop": true
       }
     ],
     "security": {

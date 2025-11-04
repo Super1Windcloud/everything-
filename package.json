@@ -18,7 +18,8 @@
     "td": "tauri dev",
     "tb": "tauri build",
     "icon": "tauri icon",
-    "test": "mocha"
+    "test": "mocha",
+    "clean": "npx rimraf node_modules && cd src-tauri && cargo clean"
   },
   "dependencies": {
     "@imengyu/vue3-context-menu": "^1.5.1",
